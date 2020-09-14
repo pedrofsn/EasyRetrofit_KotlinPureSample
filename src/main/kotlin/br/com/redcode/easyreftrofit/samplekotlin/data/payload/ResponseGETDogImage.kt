@@ -1,7 +1,7 @@
 package br.com.redcode.easyreftrofit.samplekotlin.data.payload
 
+import br.com.redcode.easyreftrofit.library.Payload
 import br.com.redcode.easyreftrofit.samplekotlin.data.model.DogImage
-import br.com.redcode.easyreftrofit.samplekotlin.network.infra.Payload
 
 /*
     CREATED BY @PEDROFSN

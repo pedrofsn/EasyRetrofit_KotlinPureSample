@@ -1,6 +1,6 @@
 package br.com.redcode.easyreftrofit.samplekotlin.domain
 
-import br.com.redcode.easyreftrofit.samplekotlin.network.infra.Payload
+import br.com.redcode.easyreftrofit.library.Payload
 
 object extract {
     infix fun <T> safe(list: List<Payload<T>>?): List<T> = list?.toModel()

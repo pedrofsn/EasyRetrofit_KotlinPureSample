@@ -1,15 +1,15 @@
 package br.com.redcode.easyreftrofit.samplekotlin.domain
 
 import br.com.redcode.easyreftrofit.library.CallbackNetworkRequest
+import br.com.redcode.easyreftrofit.library.Payload
+import br.com.redcode.easyreftrofit.library.model.ErrorHandled
 import br.com.redcode.easyreftrofit.samplekotlin.data.payload.PayloadError
 import br.com.redcode.easyreftrofit.samplekotlin.network.impl.API
 import br.com.redcode.easyreftrofit.samplekotlin.network.impl.APIConnection
 import br.com.redcode.easyreftrofit.samplekotlin.network.impl.NetworkAndErrorHandler
 import br.com.redcode.easyreftrofit.samplekotlin.network.infra.BaseInteractor
-import br.com.redcode.easyreftrofit.samplekotlin.network.infra.Payload
 import retrofit2.HttpException
 import java.net.UnknownHostException
-import br.com.redcode.easyreftrofit.library.model.ErrorHandled
 
 /*
     CREATED BY @PEDROFSN

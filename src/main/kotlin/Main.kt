@@ -1,7 +1,7 @@
+import br.com.redcode.easyreftrofit.samplekotlin.network.interactor.DogImageRemoteInteractor
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import br.com.redcode.easyreftrofit.samplekotlin.network.interactor.DogImageRemoteInteractor
 import kotlin.coroutines.CoroutineContext
 
 class Main : CoroutineScope {
